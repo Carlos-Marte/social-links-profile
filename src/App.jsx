@@ -1,8 +1,9 @@
 import SocialLinksProfile from '@/components/ProfileCard/ProfileCard';
+import '@/styles/app.css';
 
 function App () {
   return (
-    <>
+    <section className='App'>
       <SocialLinksProfile
         name='Jessica Randall'
         profilePic='/avatar-jessica.jpeg'
@@ -16,7 +17,7 @@ function App () {
           { socialName: 'Instagram', link: '#' }
         ]}
       />
-    </>
+    </section>
   );
 }
 
