@@ -21,5 +21,6 @@
 body {
   font-size: var(--font-size);
   font-family: var(--font-family);
+  font-weight: 400;
   color: var(--white);
 }

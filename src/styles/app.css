@@ -1,5 +1,5 @@
 .App {
-  background: var(--dark-grey);
+  background: var(--off-black);
   min-height: 100vh;
   display: grid;
   place-content: center;

@@ -1,0 +1,43 @@
+.ProfileCard {
+  min-width: 150px;
+  background: var(--dark-grey);
+  border-radius: 0.5em;
+  padding: 1.5em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.ProfileCard-data {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  align-items: center;
+}
+
+.ProfileCard-profilePic {
+  width: 5.5em;
+  height: auto;
+  border-radius: 100%;
+}
+
+.ProfileCard-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.ProfileCard-heading1 {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.ProfileCard-paragraph {
+  line-height: 1.5;
+}
+
+.ProfileCard-paragraph--location {
+  font-size: 0.9em;
+  color: var(--green);
+  font-weight: 600;
+}
